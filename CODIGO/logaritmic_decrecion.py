@@ -1,0 +1,1 @@
+#A partir de la regracion logartimica se pueden obtener los valores beta y c?
