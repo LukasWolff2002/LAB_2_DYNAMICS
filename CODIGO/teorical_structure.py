@@ -16,7 +16,7 @@ m3 = 0.691 + 0.26 #Kgf
 
 M1 = (m1 + 4*peso_vigas) / (g*1000) #Tonf s2 / m
 M2 = (m2 + 8 * peso_vigas) / (g*1000) 
-M3 = (m3 + 12 * peso_vigas) / (g*1000)
+M3 = (m3 + 8 * peso_vigas) / (g*1000)
 
 k1 = (48*E*I)/(largo_viga**3)
 k2 = (48*E*I)/(largo_viga**3)
