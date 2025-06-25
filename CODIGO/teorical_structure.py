@@ -2,33 +2,31 @@ import numpy as np
 
 #Otros datos
 E = 200000 #MPa
-gamma_barras = 7850 #kg/m3
-largo_viga = 0.65 #m
-b_viga = 0.05 #m
-h_viga = 0.05 #m
+peso_vigas = 0.05 #kg
+largo_viga = 600/3 #m
+g = 9.81 #m/s^2 
+
+I = 0.7503124999999998 
+
 
 #Defino los datos conocidos del sistema
-m1 = 100
-m2 = 100
-m3 = 100
+m1 = 0.26 #Kg
+m2 = 0.26 #Kg
+m3 = 0.26 #Kg
 
-c1 = 0
-c2 = 0
-c3 = 0
+M1 = (m1 + peso_vigas) * g
+M2 = (m2 + 2 * peso_vigas) * g
+M3 = (m3 + 3 * peso_vigas) * g
 
-k1 = 100 #Rigidez total por piso
+k1 = (48*E*I)/(largo_viga**3)
 k2 = 200
 k3 = 100
 
 
 #Las matrices a ensamblar son:
-M = np.array([[m1, 0, 0],
-              [0, m2, 0],
-              [0, 0, m3]])
-
-C = np.array([[c1, -c1, 0],
-              [-c1, c1+c2, -c2],
-              [0, -c2, c2+c3]])
+M = np.array([[M1, 0, 0],
+              [0, M2, 0],
+              [0, 0, M3]])
 
 K = np.array([[k1, -k1, 0],
              [-k1, k1+k2, -k2],
@@ -66,6 +64,10 @@ def normalizar_matrices (phi, matriz):
 valores, vectores = eigenvalues(M, K)
 
 wn = np.sqrt(valores)  # Frecuencias naturales
+Tn = 2 * np.pi / wn  # Periodos naturales
+
+print("Frecuencias naturales (rad/s):", wn)
+print("Periodos naturales (s):", Tn)
 
 #Ahora normalizo los vectores
 

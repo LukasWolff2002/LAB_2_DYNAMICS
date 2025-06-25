@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import scipy.integrate
+from scipy.signal import detrend, butter, filtfilt
 from scipy.fft import fft, fftfreq
-from scipy.signal import detrend
 
 # === 1. Cargar y procesar datos ===
 
@@ -57,14 +57,9 @@ def graficar_pullbacks_en_grid(dfs):
         plt.savefig(f"INFORME/GRAFICOS/Pullback_{i+1}.png", dpi=300)
         plt.close(fig)  # cerrar para no saturar memoria
 
-#graficar_pullbacks_en_grid(dfs)
+graficar_pullbacks_en_grid(dfs)
 
 # === 3. Identificación modal global ===
-import numpy as np
-import pandas as pd
-import scipy.integrate
-from scipy.signal import detrend, butter, filtfilt
-from scipy.fft import fft, fftfreq
 
 def butter_bandpass_filter(signal, lowcut, highcut, fs, order=4):
     nyq = 0.5 * fs
