@@ -282,52 +282,93 @@ For an undamped system the factor of amplification is infinite, which means that
 \newpage
 \section{Structure Description}
 
-The structure analyzed in this laboratory corresponds to a single-degree-of-freedom (SDOF) system subjected to free vibration. It consists of a rigid top mass supported vertically by a steel rod, as shown in Figure~\ref{fig:sdof}. The system is equipped with an Endevco 44A16 accelerometer to capture the dynamic response.
+The structure analyzed in this laboratory corresponds to a three-degree-of-freedom (3DOF) system subjected to free vibration. It consists of three vertically aligned masses connected by steel beams that provide bending stiffness. Each mass is allowed to move in the vertical direction, and the structure mimics a simplified building model with lumped masses and flexible connections. The dynamic response was captured using accelerometers placed on each mass.
 
-\textbf{Mass:} \\
-The total mass $m$ of the system includes the following components:
+\textbf{Masses:} \\
+The total mass of the system is concentrated in three rigid blocks, each formed by stacked steel components and instrumentation. Additionally, the self-weight of the connecting beams is included in the equivalent mass at each level. 
+
+The structure follows the assumption that masses are not tributary: each degree of freedom is associated with a single lumped mass, which receives half the weight of the beams above and half of those below. Therefore, the equivalent lumped masses for each degree of freedom are:
 
 \begin{itemize}
-    \item Endevco 44A16 accelerometer: 13 g
-    \item Three steel plates: 426 g
-    \item Top plate (excluding bolts): 146.8 g
-    \item Top bolts and nuts: 21.5 g
+    \item $m_1 = 0.555 + 0.26 + 4 \times \frac{0.075}{6} = 0.829$ kg
+    \item $m_2 = 0.553 + 0.26 + 8 \times \frac{0.075}{6} = 0.993$ kg
+    \item $m_3 = 0.691 + 0.26 + 8 \times \frac{0.075}{6} = 1.131$ kg
 \end{itemize}
 
-The total mass is:
-\[
-m = (13 + 426 + 146.8 + 21.5)\,\text{g} = 607.3\,\text{g} = 0.6073\,\text{kg}
-\]
+These values include half of the mass of each adjacent beam, distributed based on the position of each mass in the structure.
+
 
 \textbf{Stiffness:} \\
-The stiffness of the system is derived from the bending stiffness of the vertical steel rod, modeled as cantilever beams. The theoretical stiffness of each column is given by:
+The stiffness of each level is governed by the flexural stiffness of the steel beams, modeled as fixed-fixed beams. Each column consists of two metallic rulers (steel strips) working in parallel, which increases the total stiffness of each connection.
+
+The stiffness of a single beam is calculated as:
 
 \[
-K_{\text{column}} = \frac{3EI}{L^3}
+k_{\text{single}} = \frac{48EI}{L^3}
+\]
+
+Since each connection is composed of two identical rulers acting in parallel, the total stiffness per level becomes:
+
+\[
+k_i = 2 \times k_{\text{single}} = \frac{96EI}{L^3}
 \]
 
 Where:
 \begin{itemize}
-    \item $E = 200$ GPa is the Young's modulus of steel,
-    \item $I = \frac{1}{12} b h^3$ is the second moment of area of the cross-section,
-    \item $b = 3$ mm and $h = 25$ mm are the width and height of the rectangular cross-section,
-    \item $L$ is the column height 42.5 cm.
+    \item $E = 200\,\text{GPa}$ is the Young's modulus of steel,
+    \item $I = \frac{1}{12} b h^3$ is the second moment of area,
+    \item $L = 0.6/3 = 0.2\,\text{m}$ is the span of each beam.
 \end{itemize}
 
-Using $I = \frac{1}{12}(0.025)(0.003)^3 = 5.625 \times 10^{-11}$ m$^4$, the total stiffness is:
+With this, the stiffness per level is:
 
 \[
-K = \frac{3EI}{L^3} = 439.65 \text{N/m}
+k_i = \frac{96EI}{L^3} \approx 110{,}371.4\, \text{Tonf/m}
 \]
 
-\textbf{Natural Frequency:} \\
-The theoretical natural frequency is computed from:
+\textbf{Natural Frequencies:} \\
+The natural frequencies of the system were computed using the eigenvalue problem $\mathbf{K}\phi = \omega^2 \mathbf{M} \phi$. The eigenvalues were obtained, and then the natural frequencies were calculated as:
 
 \[
-\omega_n = \sqrt{\frac{K}{m}}= 26.9 rad/s, \qquad f_n = \frac{\omega_n}{2\pi} = 4.28 \text{Hz}
+\omega_n = \sqrt{\lambda_n}, \quad f_n = \frac{\omega_n}{2\pi}
 \]
 
-These expressions allow us to estimate the dynamic properties of the SDOF system analytically.
+The computed natural frequencies are:
+
+\[
+\omega_1 = 14.06\,\text{rad/s}, \quad \omega_2 = 37.96\,\text{rad/s}, \quad \omega_3 = 55.57\,\text{rad/s}
+\]
+\[
+f_1 = 2.24\,\text{Hz}, \quad f_2 = 6.04\,\text{Hz}, \quad f_3 = 8.84\,\text{Hz}
+\]
+
+\subsection*{Theoretical Mode Shapes}
+
+The theoretical vibration modes of the 3DOF system are shown below. These represent the deformation patterns associated with each natural frequency computed from the analytical model.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{GRAFICOS/Modo_Estructura_1.png}
+        \caption*{Mode 1}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{GRAFICOS/Modo_Estructura_2.png}
+        \caption*{Mode 2}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{GRAFICOS/Modo_Estructura_3.png}
+        \caption*{Mode 3}
+    \end{minipage}
+    \caption{Theoretical mode shapes of the 3DOF system.}
+    \label{fig:mode_shapes}
+\end{figure}
+
 \newpage
 \section{Instrumentation Details} 
 
@@ -368,17 +409,93 @@ Both techniques are implemented using the \textit{Catman Easy} software version 
 \newpage
 \section{Laboratory Methodology}
 
-The objective of this laboratory was to analyze the dynamic behavior of a single-degree-of-freedom (SDOF) structural system. To achieve this, a shaking table, acceleration sensors, and a data acquisition system were used.
+The objective of this laboratory was to analyze the dynamic behavior of a multiple-degree-of-freedom (MDOF) structural system. To achieve this, a shaking table, acceleration sensors, and a data acquisition system were used.
 
-First, a pull-back test was performed, which consisted of applying an initial lateral displacement to the system's mass and then releasing it to observe its free response. This test allowed the determination of the system’s natural period and damping ratio through the analysis of the acceleration signal using the logarithmic decrement method.
+First, a pull-back test was performed, which consisted of applying an initial lateral displacement to the structure and then releasing it to observe its free response. This test allowed the determination of the system’s natural periods and damping ratios through the analysis of the acceleration signal using the logarithmic decrement method. The Fast Fourier Transform (FFT) of the acceleration response was computed in real time every 5 seconds using the Catman Easy software (version 5.1.3).
 
-Subsequently, a harmonic loading test was conducted, in which the shaking table was programmed to generate sinusoidal motions with specific frequencies and amplitudes. This test enabled the observation of the resonance phenomenon by analyzing how the response amplitude varies with the excitation frequency.
+Subsequently, a harmonic loading test was conducted, in which the shaking table was programmed to generate sinusoidal motions with specific frequencies and amplitudes. This test enabled the observation of the resonance phenomenon by analyzing how the response amplitude varies with the excitation frequency. The harmonic signals were selected to excite the first three vibration modes of the structure.
 
-Finally, a seismic test was carried out using real earthquake records. The earthquakes from Kobe and Concepción (27F) were scaled and reproduced on the shaking table. The aim was to observe the system’s response to complex excitations and to assess its structural behavior under seismic events.
+Finally, a seismic test was carried out using real earthquake records. The records of the Kobe and Concepción (27F) earthquakes were scaled and reproduced on the shaking table. The aim was to observe the system’s response to complex excitations and to assess its structural behavior under realistic seismic events.
 
-Data collection was performed using an Endevco 44A16 accelerometer connected to the QuantumX CX22B-W data acquisition system. The signals were sampled at a frequency of 300~Hz, which allowed for precise recording of the system's dynamic response over time. The \textit{Catman Easy} software version 5.1.3 was used to record, visualize, and process the signals in real time, including the computation of the Fast Fourier Transform (FFT) every 5 seconds.
+Data collection was performed using an Endevco 44A16 accelerometer connected to the QuantumX CX22B-W data acquisition system. The signals were sampled at a frequency of 200~Hz, which allowed for precise recording of the system's dynamic response over time. The \textit{Catman Easy} software version 5.1.3 was used to record, visualize, and process the signals in real time, including the computation of the FFT.
 
 Post-processing of the data enabled the identification of the system’s dynamic parameters and characterization of its behavior under different types of excitation.
 
+\newpage
+\section{Results}
+
+\subsection{Pull-back Test}
+
+\subsection*{Determination of the damping period, natural period and damping ratio}
+
+To determine the natural frequencies and damping characteristics of the system, the logarithmic decrement method was applied to the acceleration signals obtained from the pull-back test (Pullback 2). This method allows estimation of the damping ratio $\zeta$ and the damped natural period $T_d$ by evaluating the exponential decay of the vibration envelope.
+
+Since the system under analysis is a multiple-degree-of-freedom (MDOF) structure, three acceleration signals were acquired, corresponding to each degree of freedom (DOF 1, DOF 2, and DOF 3). The signals were detrended and filtered to remove noise and baseline shifts. The processed time-domain responses are shown in Figure~\ref{fig:pullback_signal}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{GRAFICOS/Pullback_2.png}
+    \caption{Acceleration response of each DOF and ground during Pullback 2.}
+    \label{fig:pullback_signal}
+\end{figure}
+
+To identify the dominant frequencies excited during the free vibration, the Fast Fourier Transform (FFT) was computed for each DOF. The results are presented in Figure~\ref{fig:fft_pullback}, where three distinct peaks can be observed for each signal, corresponding to the natural frequencies of the MDOF system.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{GRAFICOS/Fourier_Pullback_2.png}
+    \caption{Fourier spectrum of Pullback 2 for each DOF. Vertical dashed lines indicate the identified natural frequencies.}
+    \label{fig:fft_pullback}
+\end{figure}
+
+The dominant frequencies identified from the FFT for each degree of freedom are:
+
+\begin{itemize}
+    \item \textbf{DOF 1:} 2.06 Hz, 6.31 Hz, 9.15 Hz
+    \item \textbf{DOF 2:} 2.06 Hz, 6.28 Hz, 9.15 Hz
+    \item \textbf{DOF 3:} 2.06 Hz, 6.31 Hz, 9.12 Hz
+\end{itemize}
+
+Using the decay of successive peaks in the time-domain response, the logarithmic decrement was applied to estimate the damping ratio $\zeta$. The damped natural period $T_d$ was calculated from the inverse of each dominant frequency. Table~\ref{tab:ld_results} summarizes the estimated values:
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{lccc}
+        \toprule
+        \textbf{Mode} & $f_n$ (Hz) & $T_d$ (s) & $\zeta$ \\
+        \midrule
+        Mode 1 & 2.06 & 0.485 & 0.0114 \\
+        Mode 2 & 6.30 & 0.159 & 0.0114 \\
+        Mode 3 & 9.14 & 0.109 & 0.0114 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Natural frequencies, damped periods, and damping ratio estimated from Pullback 2.}
+    \label{tab:ld_results}
+\end{table}
+
+As shown in the table, the structure exhibits three well-defined natural frequencies, with low damping ratios across all modes. These results confirm that the system behaves as a lightly damped MDOF structure. The consistent exponential decay and frequency peaks support the validity of the linear model used for modal analysis.
+
+\subsection*{Comparison between Theoretical and Experimental Frequencies}
+
+The natural frequencies obtained experimentally from the pull-back test (Pullback 2) were compared with the theoretical values computed from the analytical model of the MDOF system.
+
+Table~\ref{tab:comparison_frequencies} summarizes the theoretical and experimental frequencies for the first three modes, along with the absolute difference and the relative error percentage.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{ccccc}
+        \toprule
+        \textbf{Mode} & \textbf{Theoretical $f_n$ [Hz]} & \textbf{Experimental $f_n$ [Hz]} & \textbf{Error [\%]} \\
+        \midrule
+        Mode 1 & 2.24 & 2.06  & 8.04\% \\
+        Mode 2 & 6.04 & 6.30  & 4.30\% \\
+        Mode 3 & 8.84 & 9.14  & 3.39\% \\
+        \bottomrule
+    \end{tabular}
+    \caption{Comparison between theoretical and experimental natural frequencies.}
+    \label{tab:comparison_frequencies}
+\end{table}
+
+As seen in Table~\ref{tab:comparison_frequencies}, the relative error between theoretical and experimental frequencies is below 9\% in all modes, which is considered acceptable given the assumptions made in the analytical model (e.g., ideal boundary conditions, perfectly linear behavior, simplified stiffness estimation). The experimental values tend to be slightly lower in the first mode and slightly higher in the higher modes, which may be due to non-idealities such as damping, assembly imperfections, or mass distribution effects.
 
 \end{document}
