@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.8)  25 JUN 2025 17:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.8)  25 JUN 2025 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -949,14 +949,97 @@ Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 282.
 
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 334.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 336.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
 [5]
 <GRAFICOS/Modo_Estructura_1.png, id=120, 433.62pt x 578.16pt>
 File: GRAFICOS/Modo_Estructura_1.png Graphic file (type png)
 <use GRAFICOS/Modo_Estructura_1.png>
-Package pdftex.def Info: GRAFICOS/Modo_Estructura_1.png  used on input line 353.
+Package pdftex.def Info: GRAFICOS/Modo_Estructura_1.png  used on input line 372.
 (pdftex.def)             Requested size: 141.94835pt x 189.26718pt.
 <GRAFICOS/Modo_Estructura_2.png, id=122, 433.62pt x 578.16pt>
 File: GRAFICOS/Modo_Estructura_2.png Graphic file (type png)
-<use GRAFICOS/Modo_Es
+<use GRAFICOS/Modo_Estructura_2.png>
+Package pdftex.def Info: GRAFICOS/Modo_Estructura_2.png  used on input line 378.
+(pdftex.def)             Requested size: 141.94835pt x 189.26718pt.
+<GRAFICOS/Modo_Estructura_3.png, id=123, 433.62pt x 578.16pt>
+File: GRAFICOS/Modo_Estructura_3.png Graphic file (type png)
+<use GRAFICOS/Modo_Estructura_3.png>
+Package pdftex.def Info: GRAFICOS/Modo_Estructura_3.png  used on input line 384.
+(pdftex.def)             Requested size: 141.94835pt x 189.26718pt.
+
+
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 391.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+[6 <./GRAFICOS/Modo_Estructura_1.png> <./GRAFICOS/Modo_Estructura_2.png> <./GRAFICOS/Modo_Estructura_3.png>]
+
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 418.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+[7]
+
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 428.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+[8]
+
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 443.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+[9]
+<GRAFICOS/Pullback_2.png, id=150, 867.24pt x 578.16pt>
+File: GRAFICOS/Pullback_2.png Graphic file (type png)
+<use GRAFICOS/Pullback_2.png>
+Package pdftex.def Info: GRAFICOS/Pullback_2.png  used on input line 456.
+(pdftex.def)             Requested size: 443.57848pt x 295.72224pt.
+<GRAFICOS/Fourier_Pullback_2.png, id=152, 722.7pt x 578.16pt>
+File: GRAFICOS/Fourier_Pullback_2.png Graphic file (type png)
+<use GRAFICOS/Fourier_Pullback_2.png>
+Package pdftex.def Info: GRAFICOS/Fourier_Pullback_2.png  used on input line 465.
+(pdftex.def)             Requested size: 399.21791pt x 319.37404pt.
+
+
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 469.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+[10 <./GRAFICOS/Pullback_2.png>]
+
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 501.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+[11 <./GRAFICOS/Fourier_Pullback_2.png>]
+
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 520.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+[12] (Informe.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-07-20>
+ ***********
+Package rerunfilecheck Info: File `Informe.out' has not changed.
+(rerunfilecheck)             Checksum: 2EDD77BF76CD6BEFAAC80CE0EE598F0C;2584.
+ ) 
+Here is how much of TeX's memory you used:
+ 28793 strings out of 473899
+ 533896 string characters out of 5726501
+ 1938960 words of memory out of 5000000
+ 50934 multiletter control sequences out of 15000+600000
+ 609600 words of font info for 216 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,17n,87p,1267b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Informe.pdf (13 pages, 1262242 bytes).
+PDF statistics:
+ 225 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 52921 words of extra memory for PDF output out of 61914 (max. 10000000)
+

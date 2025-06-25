@@ -438,8 +438,11 @@ INPUT .\LOGO_UNIVERSIDAD.jpg
 INPUT .\LOGO_UNIVERSIDAD.jpg
 INPUT .\LOGO_UNIVERSIDAD.jpg
 INPUT .\LOGO_UNIVERSIDAD.jpg
-INPUT C:\Users\pedro\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\pedro\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\pedro\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
+INPUT C:\Users\pedro\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\pedro\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\pedro\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT .\GRAFICOS\Modo_Estructura_1.png
 INPUT .\GRAFICOS\Modo_Estructura_1.png
 INPUT .\GRAFICOS\Modo_Estructura_1.png

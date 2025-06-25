@@ -297,6 +297,15 @@ The structure follows the assumption that masses are not tributary: each degree 
 
 These values include half of the mass of each adjacent beam, distributed based on the position of each mass in the structure.
 
+The mass matrix $\mathbf{M}$ (in Tonf·s$^2$/m) is:
+
+\[
+\mathbf{M} = \begin{bmatrix}
+8.45 \times 10^{-5} & 0 & 0 \\
+0 & 1.01 \times 10^{-4} & 0 \\
+0 & 0 & 1.15 \times 10^{-4}
+\end{bmatrix}
+\]
 
 \textbf{Stiffness:} \\
 The stiffness of each level is governed by the flexural stiffness of the steel beams, modeled as fixed-fixed beams. Each column consists of two metallic rulers (steel strips) working in parallel, which increases the total stiffness of each connection.
@@ -324,6 +333,16 @@ With this, the stiffness per level is:
 
 \[
 k_i = \frac{96EI}{L^3} \approx 110{,}371.4\, \text{Tonf/m}
+\]
+
+The global stiffness matrix $\mathbf{K}$ (in Tonf/m) is:
+
+\[
+\mathbf{K} = \begin{bmatrix}
+110371.4 & -110371.4 & 0 \\
+-110371.4 & 220742.8 & -110371.4 \\
+0 & -110371.4 & 220742.8
+\end{bmatrix}
 \]
 
 \textbf{Natural Frequencies:} \\

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1750885748.35003 "c:/Users/pedro/OneDrive/Escritorio/Dynamics/Lab/LAB_2_DYNAMICS/INFORME/Informe.tex" "Informe.pdf" "Informe" 1750885751.83608 0
+["pdflatex"] 1750886426.72065 "c:/Users/pedro/OneDrive/Escritorio/Dynamics/Lab/LAB_2_DYNAMICS/INFORME/Informe.tex" "Informe.pdf" "Informe" 1750886430.27289 0
   "C:/Users/pedro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748714343 83609 ebbc432e6cbbb238d39535255db2c8bd ""
   "C:/Users/pedro/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1727064428 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/pedro/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1723153580 24265332 a4623d99dbd220d0e817d27477adcb5a ""
@@ -23,6 +23,7 @@
   "C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmex10.tfm" 1136765053 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
   "C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/pedro/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -197,16 +198,16 @@
   "C:/Users/pedro/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1718356376 7243 e5dac1240636811edb77568b81818372 ""
   "C:/Users/pedro/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/pedro/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "GRAFICOS/Fourier_Pullback_2.png" 1750885383 183819 0b56ffd41fd1d08b1fcebed3494bfefe ""
+  "GRAFICOS/Fourier_Pullback_2.png" 1750886035 183819 0b56ffd41fd1d08b1fcebed3494bfefe ""
   "GRAFICOS/Modo_Estructura_1.png" 1750882711 87464 bc762a5529541514d304254318a29bd4 ""
   "GRAFICOS/Modo_Estructura_2.png" 1750882711 102053 cfbca73c1d031bf732cc81cd51a37272 ""
   "GRAFICOS/Modo_Estructura_3.png" 1750882711 111494 06ea0663d1b7a7bd92d4701ac60e12f8 ""
   "GRAFICOS/Pullback_2.png" 1750882711 475512 3f6685d4a641576ba6f2d479f59dd22c ""
-  "Informe.aux" 1750885751 4274 6c6e6cd5462ca5349a451d04932fe4fc "pdflatex"
-  "Informe.out" 1750885751 2584 2edd77bf76cd6befaac80ce0ee598f0c "pdflatex"
-  "Informe.tex" 1750885745 29399 f82b0f6f00bd41adb31a6619a51feb50 ""
+  "Informe.aux" 1750886430 4274 6c6e6cd5462ca5349a451d04932fe4fc "pdflatex"
+  "Informe.out" 1750886430 2584 2edd77bf76cd6befaac80ce0ee598f0c "pdflatex"
+  "Informe.tex" 1750886423 29807 b5526d66d8e73f661be702de99fe5228 ""
   "LOGO_UNIVERSIDAD.jpg" 1750882711 209820 2134e729a4493a99d3d34c719af1eecf ""
-  "c:/Users/pedro/OneDrive/Escritorio/Dynamics/Lab/LAB_2_DYNAMICS/INFORME/Informe.tex" 1750885745 29399 f82b0f6f00bd41adb31a6619a51feb50 ""
+  "c:/Users/pedro/OneDrive/Escritorio/Dynamics/Lab/LAB_2_DYNAMICS/INFORME/Informe.tex" 1750886423 29807 b5526d66d8e73f661be702de99fe5228 ""
   (generated)
   "Informe.aux"
   "Informe.log"
