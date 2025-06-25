@@ -2,7 +2,7 @@ import numpy as np
 
 #Otros datos
 g = 9.81 #m/s^2 
-E = 200/g #Tonf/m2
+E = 200_000_000/g #Tonf/m2
 peso_vigas = 0.075/6 #kg
 largo_viga = 0.6/3 #m
 
