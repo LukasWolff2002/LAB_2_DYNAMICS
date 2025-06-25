@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1750806493.02496 "c:/Users/HP/Desktop/Uandes/9no_semestre/01-Dynamics/lab/LAB_2_DYNAMICS/INFORME/Informe.tex" "build/Informe.pdf" "Informe" 1750806495.3087 0
-  "C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748650245.64076 83609 ebbc432e6cbbb238d39535255db2c8bd ""
-  "C:/Users/HP/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1744470067.24804 688 37338d6ab346c2f1466b29e195316aa4 ""
-  "C:/Users/HP/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1737064493.92671 24223671 8e38715a138a952ebc2bd83a444a96eb ""
+["pdflatex"] 1750874498.89002 "c:/Users/HP/Desktop/Uandes/9no_semestre/01-Dynamics/lab/LAB_2_DYNAMICS/INFORME/Informe.tex" "build/Informe.pdf" "Informe" 1750874501.82132 0
+  "C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748650245 83609 ebbc432e6cbbb238d39535255db2c8bd ""
+  "C:/Users/HP/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1744470067 688 37338d6ab346c2f1466b29e195316aa4 ""
+  "C:/Users/HP/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1737064493 24223671 52e757c3bac48b06425ee7826828ea6d ""
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136786654 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/psyro.tfm" 1136786654 1544 23a042a74981a3e4b6ce2e350e390409 ""
@@ -197,12 +197,11 @@
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "C:/Users/HP/Desktop/Uandes/9no_semestre/01-Dynamics/lab/LAB_2_DYNAMICS/INFORME/build/Informe.aux" 1750806494.94701 2358 b5bf9d3f12635083fd1dc10987b21798 ""
-  "C:/Users/HP/Desktop/Uandes/9no_semestre/01-Dynamics/lab/LAB_2_DYNAMICS/INFORME/build/Informe.out" 1750806494.95018 2374 7e126f357b9e58c094dbca1f47073b74 ""
-  "LOGO_UNIVERSIDAD.jpg" 1746032371.5107 209820 0b87a0bacbcaefabd8c20ec03a39f2f2 ""
-  "build/Informe.aux" 1750806494.94701 2358 b5bf9d3f12635083fd1dc10987b21798 "pdflatex"
-  "build/Informe.out" 1750806494.95018 2374 7e126f357b9e58c094dbca1f47073b74 "pdflatex"
-  "c:/Users/HP/Desktop/Uandes/9no_semestre/01-Dynamics/lab/LAB_2_DYNAMICS/INFORME/Informe.tex" 1750806489.66639 22852 7b95589c47e9659a02349a5bd8bb6bdf ""
+  "Informe.tex" 1750874497 22531 63f20280f3c318f54a3935bfaf1bd949 ""
+  "LOGO_UNIVERSIDAD.jpg" 1746032371 209820 2134e729a4493a99d3d34c719af1eecf ""
+  "build/Informe.aux" 1750874501 2358 b5bf9d3f12635083fd1dc10987b21798 "pdflatex"
+  "build/Informe.out" 1750874501 2374 7e126f357b9e58c094dbca1f47073b74 "pdflatex"
+  "c:/Users/HP/Desktop/Uandes/9no_semestre/01-Dynamics/lab/LAB_2_DYNAMICS/INFORME/Informe.tex" 1750874497 22531 63f20280f3c318f54a3935bfaf1bd949 ""
   (generated)
   "build/Informe.aux"
   "build/Informe.log"
