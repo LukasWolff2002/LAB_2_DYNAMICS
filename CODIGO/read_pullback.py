@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import scipy.integrate
-from scipy.signal import detrend, butter, filtfilt
 from scipy.fft import fft, fftfreq
+from scipy.signal import detrend
 
 # === 1. Cargar y procesar datos ===
 
@@ -57,9 +57,14 @@ def graficar_pullbacks_en_grid(dfs):
         plt.savefig(f"INFORME/GRAFICOS/Pullback_{i+1}.png", dpi=300)
         plt.close(fig)  # cerrar para no saturar memoria
 
-graficar_pullbacks_en_grid(dfs)
+#graficar_pullbacks_en_grid(dfs)
 
 # === 3. Identificación modal global ===
+import numpy as np
+import pandas as pd
+import scipy.integrate
+from scipy.signal import detrend, butter, filtfilt
+from scipy.fft import fft, fftfreq
 
 def butter_bandpass_filter(signal, lowcut, highcut, fs, order=4):
     nyq = 0.5 * fs
@@ -116,6 +121,67 @@ def identificar_modos_globales_desplazamiento_filtrado(dfs, fs=200, n_modos=3):
 
     return frecs_naturales, formas_modales
 
+def analizar_fourier_pullbacks(dfs, fs=200):
+    """
+    Aplica FFT a cada pullback, grafica el espectro de frecuencias (solo DOF1–3)
+    y muestra la frecuencia dominante (máxima magnitud) por DOF.
+    """
+    dofs = ["dof1", "dof2", "dof3"]
+
+from scipy.signal import find_peaks
+
+def analizar_fourier_pullbacks(dfs, fs=200, n_picos=3):
+    """
+    Aplica FFT a cada pullback, grafica el espectro (solo DOF1–3)
+    y muestra los n_picos picos más altos de frecuencia dominante por DOF.
+    """
+    dofs = ["dof1", "dof2", "dof3"]
+
+    for i, df in enumerate(dfs):
+        T = 1 / fs
+        N = len(df)
+        t = df["tiempo"].values
+
+        fig, axs = plt.subplots(3, 1, figsize=(10, 8), sharex=True)
+        fig.suptitle(f"Espectro de Fourier - Pullback {i+1}", fontsize=16)
+
+        print(f"\n🎯 Pullback {i+1} - {n_picos} Frecuencias dominantes por DOF:")
+
+        for j, dof in enumerate(dofs):
+            a = df[dof].values
+            a = detrend(a)
+
+            Y = fft(a)
+            freqs = fftfreq(N, T)
+            mask = freqs > 0  # Solo frecuencias positivas
+
+            Y_mag = np.abs(Y[mask])
+            freqs_pos = freqs[mask]
+
+            # === Detectar picos reales ===
+            peaks, _ = find_peaks(Y_mag, distance=fs//2, height=np.max(Y_mag)*0.05)  # filtro por separación y altura
+            peak_mags = Y_mag[peaks]
+            top_peaks_idx = peaks[np.argsort(peak_mags)[-n_picos:][::-1]]
+            frecs_dominantes = freqs_pos[top_peaks_idx]
+
+            # === Imprimir resultados ===
+            print(f"  DOF{j+1}: " + ", ".join([f"{f:.2f} Hz" for f in frecs_dominantes]))
+
+            # === Graficar ===
+            axs[j].plot(freqs_pos, Y_mag)
+            for f in frecs_dominantes:
+                axs[j].axvline(f, color='r', linestyle='--')
+            axs[j].set_title(f"DOF {j+1}")
+            axs[j].set_ylabel("Magnitud")
+            axs[j].grid(True)
+
+        axs[-1].set_xlabel("Frecuencia [Hz]")
+        plt.tight_layout(rect=[0, 0, 1, 0.95])
+        plt.savefig(f"INFORME/GRAFICOS/Fourier_Pullback_{i+1}.png", dpi=300)
+        plt.close(fig)
+
+
+
 frecs, modos = identificar_modos_globales_desplazamiento_filtrado(dfs, fs=200)
 periodos = [1/f for f in frecs]
 
@@ -124,3 +190,7 @@ print("Periodos naturales (s):", periodos)
 print("Formas modales (normalizadas):")
 for i, modo in enumerate(modos):
     print(f"Modo {i+1}:", modo.round(3))
+analizar_fourier_pullbacks([df1, df2, df3], fs=200, n_picos=3)
+
+
+
