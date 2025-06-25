@@ -1,26 +1,26 @@
 import numpy as np
 
 #Otros datos
-E = 200000 #MPa
-peso_vigas = 0.05 #kg
-largo_viga = 600/3 #m
 g = 9.81 #m/s^2 
+E = 200/g #Tonf/m2
+peso_vigas = 0.075/6 #kg
+largo_viga = 0.6/3 #m
 
-I = 0.7503124999999998 
+I = ((26.25/1000) * (0.7/1000)**3)/12 #m^4, momento de inercia de la viga
 
 
 #Defino los datos conocidos del sistema
-m1 = 0.26 #Kg
-m2 = 0.26 #Kg
-m3 = 0.26 #Kg
+m1 = 0.555 + 0.26 #Kgf
+m2 = 0.553 + 0.26 #Kgf
+m3 = 0.691 + 0.26 #Kgf
 
-M1 = (m1 + peso_vigas) * g
-M2 = (m2 + 2 * peso_vigas) * g
-M3 = (m3 + 3 * peso_vigas) * g
+M1 = (m1 + 4*peso_vigas) / (g*1000) #Tonf s2 / m
+M2 = (m2 + 8 * peso_vigas) / (g*1000) 
+M3 = (m3 + 12 * peso_vigas) / (g*1000)
 
 k1 = (48*E*I)/(largo_viga**3)
-k2 = 200
-k3 = 100
+k2 = (48*E*I)/(largo_viga**3)
+k3 = (48*E*I)/(largo_viga**3)
 
 
 #Las matrices a ensamblar son:
@@ -64,10 +64,12 @@ def normalizar_matrices (phi, matriz):
 valores, vectores = eigenvalues(M, K)
 
 wn = np.sqrt(valores)  # Frecuencias naturales
-Tn = 2 * np.pi / wn  # Periodos naturales
 
-print("Frecuencias naturales (rad/s):", wn)
-print("Periodos naturales (s):", Tn)
+
+print("\nFrecuencias naturales (rad/s):", wn)
+
+print("frecuencias naturales (Hz):", wn / (2 * np.pi))
+
 
 #Ahora normalizo los vectores
 
