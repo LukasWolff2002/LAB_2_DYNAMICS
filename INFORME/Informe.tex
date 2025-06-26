@@ -279,6 +279,58 @@ Resonance is a phenomenon that occurs when the frequency of an external force ma
 $$\omega_n = \bar{\omega}$$
 
 For an undamped system the factor of amplification is infinite, which means that the system will oscillate indefinitely with increasing amplitude. In real systems, damping reduces the maximum amplitude of oscillations, but resonance can still lead to significant increases in amplitude. This means, if the resonance is not controlled, it can cause structural damage or failure. 
+\subsection{Mass Matrix and Stiffness Matrix}
+In multi-degree-of-freedom (MDOF) systems, the dynamic behavior is governed by the equation of motion:
+
+\begin{equation}
+\mathbf{M} \ddot{\mathbf{X}}(t) + \mathbf{C} \dot{\mathbf{X}}(t) + \mathbf{K} \mathbf{X}(t) = \mathbf{F}(t)
+\end{equation}
+
+Where:
+\begin{itemize}
+  \item $\mathbf{M}$ = mass matrix (kg)
+  \item $\mathbf{C}$ = damping matrix (kg/s)
+  \item $\mathbf{K}$ = stiffness matrix (N/m)
+  \item $\mathbf{X}(t)$ = displacement vector
+  \item $\mathbf{F}(t)$ = external force vector
+\end{itemize}
+
+The mass matrix $\mathbf{M}$ is a diagonal matrix in most lumped mass models, where each diagonal term represents the mass associated with a degree of freedom. The stiffness matrix $\mathbf{K}$ defines the relationship between nodal displacements and restoring forces in the system. Its entries depend on the stiffness properties of structural members.
+
+
+Where:
+\begin{itemize}
+  \item $\omega$ = natural angular frequency (rad/s)
+  \item $\boldsymbol{\phi}$ = mode shape vector (eigenvector)
+\end{itemize}
+
+Each mode shape is associated with a unique natural frequency, and the set of mode shapes forms a complete, linearly independent basis for the system’s motion.
+
+\subsection{Eigenvalues and Eigenvectors}
+Solving the eigenvalue problem yields:
+\begin{itemize}
+  \item \textbf{Eigenvalues} $\lambda_i = \omega_i^2$, which represent the squared natural frequencies of the system.
+  \item \textbf{Eigenvectors} $\boldsymbol{\phi}_i$, which represent the mode shapes corresponding to each frequency.
+\end{itemize}
+
+The eigenvalue problem for free vibration (undamped) systems is:
+
+\begin{equation}
+\mathbf{K} \boldsymbol{\phi}_i = \lambda_i \mathbf{M} \boldsymbol{\phi}_i
+\end{equation}
+
+By taking the square root of the eigenvalues, we obtain the natural frequencies $\omega_i = \sqrt{\lambda_i}$. These values provide critical information about the dynamic response of the structure and are used to identify potential resonance conditions.
+
+\subsection{Mode Shapes}
+The mode shapes (or eigenvectors) of a system represent the relative displacements of each degree of freedom during free vibration at a specific natural frequency. They are determined by solving the eigenvalue problem of the undamped system:
+
+\begin{equation}
+\left( \mathbf{K} - \omega^2 \mathbf{M} \right) \boldsymbol{\phi} = \mathbf{0}
+\end{equation}
+
+
+
+
 \newpage
 \section{Structure Description}
 
