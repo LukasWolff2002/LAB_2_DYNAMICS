@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.16)  25 JUN 2025 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.16)  25 JUN 2025 20:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -894,12 +894,21 @@ Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 135.
  [1
 
 {C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./LOGO_UNIVERSIDAD.jpg>]
+<GRAFICOS/model.jpg, id=97, 1284.8pt x 1284.8pt>
+File: GRAFICOS/model.jpg Graphic file (type jpg)
+<use GRAFICOS/model.jpg>
+Package pdftex.def Info: GRAFICOS/model.jpg  used on input line 197.
+(pdftex.def)             Requested size: 221.78923pt x 221.78508pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 204.
+ (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.198 \newpage
-               [1]
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 204.
+l.211 \newpage
+               [1 <./GRAFICOS/model.jpg>]
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 217.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -907,110 +916,106 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 204.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 217.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 204.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 217.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 204.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 217.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 204.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 217.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 204.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 217.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 204.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 217.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 204.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 209.
- (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 217.
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 245.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 258.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [2]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 282.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 295.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [3]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 334.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 347.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [4]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 388.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 401.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [5]
-<GRAFICOS/Modo_Estructura_1.png, id=135, 433.62pt x 578.16pt>
+<GRAFICOS/Modo_Estructura_1.png, id=137, 433.62pt x 578.16pt>
 File: GRAFICOS/Modo_Estructura_1.png Graphic file (type png)
 <use GRAFICOS/Modo_Estructura_1.png>
-Package pdftex.def Info: GRAFICOS/Modo_Estructura_1.png  used on input line 424.
+Package pdftex.def Info: GRAFICOS/Modo_Estructura_1.png  used on input line 437.
 (pdftex.def)             Requested size: 141.94835pt x 189.26718pt.
-<GRAFICOS/Modo_Estructura_2.png, id=137, 433.62pt x 578.16pt>
+<GRAFICOS/Modo_Estructura_2.png, id=139, 433.62pt x 578.16pt>
 File: GRAFICOS/Modo_Estructura_2.png Graphic file (type png)
 <use GRAFICOS/Modo_Estructura_2.png>
-Package pdftex.def Info: GRAFICOS/Modo_Estructura_2.png  used on input line 430.
+Package pdftex.def Info: GRAFICOS/Modo_Estructura_2.png  used on input line 443.
 (pdftex.def)             Requested size: 141.94835pt x 189.26718pt.
-<GRAFICOS/Modo_Estructura_3.png, id=138, 433.62pt x 578.16pt>
+<GRAFICOS/Modo_Estructura_3.png, id=140, 433.62pt x 578.16pt>
 File: GRAFICOS/Modo_Estructura_3.png Graphic file (type png)
 <use GRAFICOS/Modo_Estructura_3.png>
-Package pdftex.def Info: GRAFICOS/Modo_Estructura_3.png  used on input line 436.
+Package pdftex.def Info: GRAFICOS/Modo_Estructura_3.png  used on input line 449.
 (pdftex.def)             Requested size: 141.94835pt x 189.26718pt.
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 443.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 456.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [6 <./GRAFICOS/Modo_Estructura_1.png> <./GRAFICOS/Modo_Estructura_2.png> <./GRAFICOS/Modo_Estructura_3.png>]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 470.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 483.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [7]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 480.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 493.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [8]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 495.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 508.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [9]
-<GRAFICOS/Pullback_2.png, id=165, 867.24pt x 578.16pt>
+<GRAFICOS/Pullback_2.png, id=167, 867.24pt x 578.16pt>
 File: GRAFICOS/Pullback_2.png Graphic file (type png)
 <use GRAFICOS/Pullback_2.png>
-Package pdftex.def Info: GRAFICOS/Pullback_2.png  used on input line 508.
+Package pdftex.def Info: GRAFICOS/Pullback_2.png  used on input line 521.
 (pdftex.def)             Requested size: 443.57848pt x 295.72224pt.
-<GRAFICOS/Fourier_Pullback_2.png, id=167, 722.7pt x 578.16pt>
+<GRAFICOS/Fourier_Pullback_2.png, id=169, 722.7pt x 578.16pt>
 File: GRAFICOS/Fourier_Pullback_2.png Graphic file (type png)
 <use GRAFICOS/Fourier_Pullback_2.png>
-Package pdftex.def Info: GRAFICOS/Fourier_Pullback_2.png  used on input line 517.
+Package pdftex.def Info: GRAFICOS/Fourier_Pullback_2.png  used on input line 530.
 (pdftex.def)             Requested size: 399.21791pt x 319.37404pt.
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 521.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 534.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [10 <./GRAFICOS/Pullback_2.png>]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 553.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 566.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [11 <./GRAFICOS/Fourier_Pullback_2.png>]
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 572.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 585.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [12] (c:\Users\HP\Desktop\Uandes\9no_semestre\01-Dynamics\lab\LAB_2_DYNAMICS\INFORME\build\Informe.aux)
  ***********
@@ -1021,17 +1026,17 @@ Package rerunfilecheck Info: File `Informe.out' has not changed.
 (rerunfilecheck)             Checksum: FC67760461C02FB3C813C79FA6179123;3134.
  ) 
 Here is how much of TeX's memory you used:
- 28903 strings out of 474485
- 536549 string characters out of 5745150
+ 28909 strings out of 474485
+ 536730 string characters out of 5745150
  1938542 words of memory out of 5000000
- 50447 multiletter control sequences out of 15000+600000
- 609793 words of font info for 219 fonts, out of 8000000 for 9000
+ 50455 multiletter control sequences out of 15000+600000
+ 609663 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,87p,1275b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\HP\Desktop\Uandes\9no_semestre\01-Dynamics\lab\LAB_2_DYNAMICS\INFORME\build\Informe.pdf (13 pages, 1267050 bytes).
+Output written on c:\Users\HP\Desktop\Uandes\9no_semestre\01-Dynamics\lab\LAB_2_DYNAMICS\INFORME\build\Informe.pdf (13 pages, 1429878 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 52945 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 243 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 52950 words of extra memory for PDF output out of 61914 (max. 10000000)
 

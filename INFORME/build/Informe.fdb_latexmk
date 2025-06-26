@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1750896296.63792 "c:/Users/HP/Desktop/Uandes/9no_semestre/01-Dynamics/lab/LAB_2_DYNAMICS/INFORME/Informe.tex" "build/Informe.pdf" "Informe" 1750896308.91169 0
+["pdflatex"] 1750897090.54064 "c:/Users/HP/Desktop/Uandes/9no_semestre/01-Dynamics/lab/LAB_2_DYNAMICS/INFORME/Informe.tex" "build/Informe.pdf" "Informe" 1750897102.67634 0
   "C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748650245 83609 ebbc432e6cbbb238d39535255db2c8bd ""
   "C:/Users/HP/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1744470067 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/HP/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1737064493 24223671 52e757c3bac48b06425ee7826828ea6d ""
@@ -203,11 +203,12 @@
   "GRAFICOS/Modo_Estructura_2.png" 1750880899 102053 cfbca73c1d031bf732cc81cd51a37272 ""
   "GRAFICOS/Modo_Estructura_3.png" 1750880899 111494 06ea0663d1b7a7bd92d4701ac60e12f8 ""
   "GRAFICOS/Pullback_2.png" 1750806343 475512 3f6685d4a641576ba6f2d479f59dd22c ""
-  "Informe.tex" 1750896282 32243 a8f5416e0baf5e51b44f7af921646f05 ""
+  "GRAFICOS/model.jpg" 1750896790 162349 d38f75bee96d555d56aad1147abf835b ""
+  "Informe.tex" 1750897090 32463 2d2d4fd1921df2208bcc9ea73da4710d ""
   "LOGO_UNIVERSIDAD.jpg" 1746032371 209820 2134e729a4493a99d3d34c719af1eecf ""
-  "build/Informe.aux" 1750896308 4666 0e72b72724c7719c7cecb2faab35ee18 "pdflatex"
-  "build/Informe.out" 1750896308 3134 fc67760461c02fb3c813c79fa6179123 "pdflatex"
-  "c:/Users/HP/Desktop/Uandes/9no_semestre/01-Dynamics/lab/LAB_2_DYNAMICS/INFORME/Informe.tex" 1750896282 32243 a8f5416e0baf5e51b44f7af921646f05 ""
+  "build/Informe.aux" 1750897101 4927 2cea38c77ead75301e67cbb10f59031e "pdflatex"
+  "build/Informe.out" 1750897101 3134 fc67760461c02fb3c813c79fa6179123 "pdflatex"
+  "c:/Users/HP/Desktop/Uandes/9no_semestre/01-Dynamics/lab/LAB_2_DYNAMICS/INFORME/Informe.tex" 1750897090 32463 2d2d4fd1921df2208bcc9ea73da4710d ""
   (generated)
   "build/Informe.aux"
   "build/Informe.log"
