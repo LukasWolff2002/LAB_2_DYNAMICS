@@ -169,3 +169,8 @@ def graficar_modos_estructura(phi_norm, ancho=1.0, altura=1.0, escalar=0.3, guar
 graficar_modos_estructura(Phi_norm.T, ancho=1.0, altura=1.0, escalar=0.3, guardar=True)
 
 
+#print vectores normalizados por piso
+print("\nVectores normalizados por piso:")
+print("Modo 1:", phi1_norm) 
+print("Modo 2:", phi2_norm)
+print("Modo 3:", phi3_norm)

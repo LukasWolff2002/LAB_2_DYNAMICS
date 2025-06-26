@@ -582,4 +582,85 @@ Table~\ref{tab:comparison_frequencies} summarizes the theoretical and experiment
 
 As seen in Table~\ref{tab:comparison_frequencies}, the relative error between theoretical and experimental frequencies is below 9\% in all modes, which is considered acceptable given the assumptions made in the analytical model (e.g., ideal boundary conditions, perfectly linear behavior, simplified stiffness estimation). The experimental values tend to be slightly lower in the first mode and slightly higher in the higher modes, which may be due to non-idealities such as damping, assembly imperfections, or mass distribution effects.
 
+\subsection*{Test with harmonic vibrations}
+
+For this section, a comparison was made between the theoretical and experimental modes of vibrations of the strcuture when resonance occurs.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{GRAFICOS/Modo_Experimental_Estructura_Sismico_1.png}
+        \caption{VIbration Mode 1}
+        \label{fig:modo1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{GRAFICOS/Modo_Experimental_Estructura_Sismico_2.png}
+        \caption{Vibration Mode 2}
+        \label{fig:modo2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{GRAFICOS/Modo_Experimental_Estructura_Sismico_3.png}
+        \caption{Vibration Mode 3}
+        \label{fig:modo3}
+    \end{subfigure}
+    \caption{Experimental vibration modes of the structure during resonance in harmonic excitation.}
+    \label{fig:modos_exp}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \caption{Natural experimental frequencies of the structure}
+    \begin{tabular}{c|c}
+        \hline
+        Mode & $f_n$ [Hz] \\
+        \hline
+        1 & 2.06 \\
+        2 & 6.3 \\
+        3 & 9.14 \\
+        \hline
+    \end{tabular}
+    \label{tab:frecuencias}
+\end{minipage}\hfill
+\begin{minipage}{0.53\textwidth}
+    \centering
+    \caption{Normalized experimental mode shapes of the structure}
+    \begin{tabular}{c|ccc}
+        \hline
+        Mode & Floor 1 & Floor 2 & Floor 3 \\
+        \hline
+        1 & 0.10 & 0.76 & 1.24 \\
+        2 & 0.17 & 1.26 & -0.23 \\
+        3 & 0.75 & -0.98 & 1.21 \\
+        \hline
+    \end{tabular}
+    \label{tab:modos}
+\end{minipage}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Normalized theoretical modes of the structure}
+\begin{tabular}{c|ccc}
+\hline
+Mode & Floor 1& Floor 2 & Floor 3 \\
+\hline
+1 & 0.57 & 1.00 & 1.24 \\
+2 & 0.36 & 0.11 & -0.30 \\
+3 & 0.07 & -0.12 & 0.06 \\
+\hline
+\end{tabular}
+\label{tab:normalized_modes_theoretical_swapped}
+\end{table}
+
+As Table \ref{tab:frecuencias}, \ref{tab:modos} and \ref{tab:normalized_modes_theoretical_swapped} shows, some differences are observed in both the frequencies and the mode shapes. These discrepancies can be attributed to factors such as model simplifications, experimental noise, or limitations in capturing the full dynamic behavior of the structure. Overall, the results highlight the effectiveness of the experimental approach while also indicating areas where further refinement of the model or the testing procedures may be beneficial.
+
+Despite these differences, the vibration modes plotted were in accordance with the theoretical modes, confirming the expected behavior of the structure under harmonic excitation.
+
 \end{document}
