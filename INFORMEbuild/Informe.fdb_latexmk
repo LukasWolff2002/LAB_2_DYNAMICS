@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1750977724.44603 "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORME/Informe.tex" "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORMEbuild/Informe.pdf" "Informe" 1750977729.20412 0
+["pdflatex"] 1751068288.60435 "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORME/Informe.tex" "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORMEbuild/Informe.pdf" "Informe" 1751068295.76897 0
   "C:/Users/felip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1731791225 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/felip/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1725135574 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/felip/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1731791239 24265334 e5b26b3f8e9b98ca0264e80bc6c5ba90 ""
@@ -198,6 +198,8 @@
   "C:/Users/felip/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1718356376 7243 e5dac1240636811edb77568b81818372 ""
   "C:/Users/felip/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/felip/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
+  "GRAFICOS/Experimental_Response_Concepcion.png" 1751067629 449772 a21323ccfc194182becfcc2539516f2a ""
+  "GRAFICOS/Experimental_Response_Kobe.png" 1751067589 386616 37e020576600af45d5f065ce02e6cc7b ""
   "GRAFICOS/Fourier_Pullback_2.png" 1750965639 183819 0b56ffd41fd1d08b1fcebed3494bfefe ""
   "GRAFICOS/Modo_Estructura_1.png" 1750977133 94287 c0396ea2b64f175dd353d062d6b83138 ""
   "GRAFICOS/Modo_Estructura_2.png" 1750977134 110409 58289cf541af0c1aa3f70ca7b2256625 ""
@@ -207,11 +209,11 @@
   "GRAFICOS/Modo_Experimental_Estructura_Sismico_3.png" 1750977011 123744 92fa01df529483df2392ae12de397b8f ""
   "GRAFICOS/Pullback_2.png" 1750965639 475512 3f6685d4a641576ba6f2d479f59dd22c ""
   "GRAFICOS/model.jpg" 1750965639 162349 d38f75bee96d555d56aad1147abf835b ""
-  "Informe.tex" 1750977721 35449 245759749bb0acc6c46f65e7f5b2a490 ""
+  "Informe.tex" 1751068287 39145 d89b6f664b3d6064f21cca50e36ef36f ""
   "LOGO_UNIVERSIDAD.jpg" 1750965639 209820 2134e729a4493a99d3d34c719af1eecf ""
-  "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORME/Informe.tex" 1750977721 35449 245759749bb0acc6c46f65e7f5b2a490 ""
-  "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORMEbuild/Informe.aux" 1750977728 6533 5e6e0b71750570fae273f5c64d2e6123 "pdflatex"
-  "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORMEbuild/Informe.out" 1750977728 3134 fc67760461c02fb3c813c79fa6179123 "pdflatex"
+  "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORME/Informe.tex" 1751068287 39145 d89b6f664b3d6064f21cca50e36ef36f ""
+  "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORMEbuild/Informe.aux" 1751068295 7175 9e0b5cc7abc51e1b95589e65923e7946 "pdflatex"
+  "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORMEbuild/Informe.out" 1751068295 3134 fc67760461c02fb3c813c79fa6179123 "pdflatex"
   (generated)
   "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORMEbuild/Informe.aux"
   "c:/Users/felip/OneDrive/Escritorio/202510/Dynamics of Structures/LAB_2_DYNAMICS/INFORMEbuild/Informe.log"

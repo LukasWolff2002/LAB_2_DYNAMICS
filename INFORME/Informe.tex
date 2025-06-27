@@ -663,4 +663,38 @@ As Table \ref{tab:frecuencias}, \ref{tab:modos} and \ref{tab:normalized_modes_th
 
 Despite these differences, the vibration modes plotted were in accordance with the theoretical modes, confirming the expected behavior of the structure under harmonic excitation.
 
+\newpage
+
+\section*{Sismic Response Analysis}
+
+In this section, the numerical siesmic response was obteined using the Newmark's method. This analysis was performed for two types of earthquakes, the Concepcion and Kobe earthquakes, which were scaled to match the maximum acceleration of the structure. The results were compared with the experimental data obtained from the shaking table tests.
+
+\subsection*{Concepcion Earthquake}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{GRAFICOS/Experimental_Response_Concepcion.png}
+    \caption{Numerical response of the structure during the Concepción earthquake.}
+    \label{fig:concepcion_acceleration}
+\end{figure}
+
+\subsection*{Kobe Earthquake}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{GRAFICOS/Experimental_Response_Kobe.png}
+    \caption{Numerical response of the structure during the Kobe earthquake.}
+    \label{fig:kobe_acceleration}
+\end{figure}
+
+The simulated seismic responses of the structure to the Concepción and Kobe earthquakes, obtained using the experimentally identified first mode and the Newmark method, illustrate how the dynamic behavior is governed by both the characteristics of the ground motion and the modal properties of the system. The Concepción earthquake generates a response with greater amplitude and longer duration compared to the Kobe earthquake, reflecting its higher energy and extended shaking. In both cases, the system’s response closely follows that of a single-degree-of-freedom oscillator, dominated by the first mode, and the computed displacements and accelerations remain within the expected range for a lightly damped laboratory structure. Any minor differences in response details can be attributed to the distinct frequency content of each seismic input, experimental uncertainties, and the inherent simplifications of the SDOF approximation, yet overall, the simulations show good agreement with theoretical expectations and validate the experimental modal identification.
+
+\newpage
+\section*{Conclusions}
+
+The comparison between theoretical and experimental results demonstrates strong agreement for the fundamental dynamic properties of the structure. Both analytical calculations and experimental tests, including pull-back and harmonic excitation, yield natural frequencies and mode shapes that are closely matched for the first mode, with relative errors under 9\%. While the first mode is consistently observed in all tests, higher-frequency modes are more challenging to detect and show greater discrepancies due to limitations in excitation methods, measurement noise, and model simplifications. The use of frequency domain analysis, such as FFT, proved especially valuable for identifying these higher modes and for contrasting the dynamic response under different testing conditions.
+
+Differences between theoretical predictions and experimental findings can largely be attributed to modeling assumptions, sensor placement inaccuracies, and the presence of experimental noise. Refining the analytical model to better represent boundary conditions, mass distribution, and damping could help reduce these discrepancies. Additionally, advanced excitation techniques and signal processing methods may further enhance the identification of high-frequency modes in future work. Overall, the laboratory validated key concepts from lectures such as modal superposition, resonance, and the role of mass, stiffness, and damping through empirical results. All employed routines and Python scripts are included in the \href{https://github.com/LukasWolff2002/LAB_2_DYNAMICS}{GitHub Repository}.
+
+
 \end{document}

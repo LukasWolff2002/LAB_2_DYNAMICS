@@ -95,6 +95,9 @@ plt.ylabel('a [m/s²]')
 plt.legend()
 plt.grid(True)
 
-plt.suptitle('SDOF Experimental Modal Response to Concepción Earthquake\n(Newmark, Parameters from Pull-back Test)')
+plt.suptitle('Experimental Modal Response to Concepcion Earthquake\n(Newmark, Parameters from Pull-back Test)')
 plt.tight_layout()
+#Guardar en carpeta GRAFICOS
+plt.savefig('INFORME/GRAFICOS/Experimental_Response_Concepcion.png', dpi=300)
 plt.show()
+
