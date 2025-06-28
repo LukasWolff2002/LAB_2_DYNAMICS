@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.16)  25 JUN 2025 20:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.16)  28 JUN 2025 11:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1013,11 +1013,56 @@ File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 566.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
  [11 <./GRAFICOS/Fourier_Pullback_2.png>]
+<GRAFICOS/Modo_Experimental_Estructura_Sismico_1.png, id=188, 433.62pt x 578.16pt>
+File: GRAFICOS/Modo_Experimental_Estructura_Sismico_1.png Graphic file (type png)
+<use GRAFICOS/Modo_Experimental_Estructura_Sismico_1.png>
+Package pdftex.def Info: GRAFICOS/Modo_Experimental_Estructura_Sismico_1.png  used on input line 593.
+(pdftex.def)             Requested size: 133.07489pt x 177.43687pt.
+<GRAFICOS/Modo_Experimental_Estructura_Sismico_2.png, id=189, 433.62pt x 578.16pt>
+File: GRAFICOS/Modo_Experimental_Estructura_Sismico_2.png Graphic file (type png)
+<use GRAFICOS/Modo_Experimental_Estructura_Sismico_2.png>
+Package pdftex.def Info: GRAFICOS/Modo_Experimental_Estructura_Sismico_2.png  used on input line 600.
+(pdftex.def)             Requested size: 133.07489pt x 177.43687pt.
+<GRAFICOS/Modo_Experimental_Estructura_Sismico_3.png, id=190, 433.62pt x 578.16pt>
+File: GRAFICOS/Modo_Experimental_Estructura_Sismico_3.png Graphic file (type png)
+<use GRAFICOS/Modo_Experimental_Estructura_Sismico_3.png>
+Package pdftex.def Info: GRAFICOS/Modo_Experimental_Estructura_Sismico_3.png  used on input line 607.
+(pdftex.def)             Requested size: 133.07489pt x 177.43687pt.
 File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
 <use LOGO_UNIVERSIDAD.jpg>
-Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 585.
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 646.
 (pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
- [12] (c:\Users\HP\Desktop\Uandes\9no_semestre\01-Dynamics\lab\LAB_2_DYNAMICS\INFORME\build\Informe.aux)
+ [12 <./GRAFICOS/Modo_Experimental_Estructura_Sismico_1.png> <./GRAFICOS/Modo_Experimental_Estructura_Sismico_2.png> <./GRAFICOS/Modo_Experimental_Estructura_Sismico_3.png>]
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 666.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+ [13]
+<GRAFICOS/Experimental_Response_Concepcion.png, id=212, 722.7pt x 578.16pt>
+File: GRAFICOS/Experimental_Response_Concepcion.png Graphic file (type png)
+<use GRAFICOS/Experimental_Response_Concepcion.png>
+Package pdftex.def Info: GRAFICOS/Experimental_Response_Concepcion.png  used on input line 676.
+(pdftex.def)             Requested size: 354.86412pt x 283.89195pt.
+<GRAFICOS/Experimental_Response_Kobe.png, id=213, 722.7pt x 578.16pt>
+File: GRAFICOS/Experimental_Response_Kobe.png Graphic file (type png)
+<use GRAFICOS/Experimental_Response_Kobe.png>
+Package pdftex.def Info: GRAFICOS/Experimental_Response_Kobe.png  used on input line 685.
+(pdftex.def)             Requested size: 354.86412pt x 283.89195pt.
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 689.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+ [14 <./GRAFICOS/Experimental_Response_Concepcion.png>]
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 692.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+ [15 <./GRAFICOS/Experimental_Response_Kobe.png>]
+File: LOGO_UNIVERSIDAD.jpg Graphic file (type jpg)
+<use LOGO_UNIVERSIDAD.jpg>
+Package pdftex.def Info: LOGO_UNIVERSIDAD.jpg  used on input line 700.
+(pdftex.def)             Requested size: 110.8946pt x 40.20973pt.
+ [16] (c:\Users\HP\Desktop\Uandes\9no_semestre\01-Dynamics\lab\LAB_2_DYNAMICS\INFORME\build\Informe.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1026,17 +1071,17 @@ Package rerunfilecheck Info: File `Informe.out' has not changed.
 (rerunfilecheck)             Checksum: FC67760461C02FB3C813C79FA6179123;3134.
  ) 
 Here is how much of TeX's memory you used:
- 28909 strings out of 474485
- 536730 string characters out of 5745150
+ 28988 strings out of 474485
+ 539295 string characters out of 5745150
  1938542 words of memory out of 5000000
- 50455 multiletter control sequences out of 15000+600000
- 609663 words of font info for 217 fonts, out of 8000000 for 9000
+ 50513 multiletter control sequences out of 15000+600000
+ 612775 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,87p,1275b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,87p,1275b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\HP\Desktop\Uandes\9no_semestre\01-Dynamics\lab\LAB_2_DYNAMICS\INFORME\build\Informe.pdf (13 pages, 1429878 bytes).
+Output written on c:\Users\HP\Desktop\Uandes\9no_semestre\01-Dynamics\lab\LAB_2_DYNAMICS\INFORME\build\Informe.pdf (17 pages, 2504868 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 52950 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 284 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 57071 words of extra memory for PDF output out of 61914 (max. 10000000)
 

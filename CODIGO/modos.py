@@ -149,9 +149,7 @@ def graficar_modos_estructura(phi_norm, ancho=1.0, altura=1.0, escalar=0.3, guar
 
 
         # === Etiquetas y configuración ===
-        ax.set_title(f"Modo {i+1} (estructura deformada)")
-        ax.set_xlabel("Desplazamiento horizontal (amplificado)")
-        ax.set_ylabel("Altura [m]")
+        ax.set_title(f"Mode {i+1} (Deformed Shape)")
         ax.set_aspect('equal')
         ax.set_xlim(-1.5 * escalar, ancho + 1.5 * escalar)
         ax.set_ylim(-0.1, niveles_y[0] + 0.1)

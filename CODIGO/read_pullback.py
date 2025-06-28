@@ -39,8 +39,8 @@ def graficar_pullbacks_en_grid(dfs):
     Guarda cada figura como PNG.
     """
     dof_labels = ["dof1", "dof2", "dof3", "suelo"]
-    titulos = ["Aceleración DOF 1", "Aceleración DOF 2",
-               "Aceleración DOF 3", "Aceleración del Suelo"]
+    titulos = ["Acceleration DOF 1", "Acceleration DOF 2",
+               "Acceleration DOF 3", "Ground Acceleration"]
 
     for i, df in enumerate(dfs):
         fig, axs = plt.subplots(2, 2, figsize=(12, 8))
@@ -49,15 +49,15 @@ def graficar_pullbacks_en_grid(dfs):
         for j, ax in enumerate(axs.flat):
             ax.plot(df["tiempo"], df[dof_labels[j]])
             ax.set_title(titulos[j])
-            ax.set_xlabel("Tiempo [s]")
-            ax.set_ylabel("Aceleración [m/s²]")
+            ax.set_xlabel("Time [s]")
+            ax.set_ylabel("Acceleration [m/s²]")
             ax.grid(True)
 
         plt.tight_layout(rect=[0, 0, 1, 0.96])
         plt.savefig(f"INFORME/GRAFICOS/Pullback_{i+1}.png", dpi=300)
         plt.close(fig)  # cerrar para no saturar memoria
 
-#graficar_pullbacks_en_grid(dfs)
+graficar_pullbacks_en_grid(dfs)
 
 # === 3. Identificación modal global ===
 import numpy as np
@@ -143,7 +143,7 @@ def analizar_fourier_pullbacks(dfs, fs=200, n_picos=3):
         t = df["tiempo"].values
 
         fig, axs = plt.subplots(3, 1, figsize=(10, 8), sharex=True)
-        fig.suptitle(f"Espectro de Fourier - Pullback {i+1}", fontsize=16)
+        fig.suptitle(f"Fourier Spectrum - Pullback {i+1}", fontsize=16)
 
         print(f"\n🎯 Pullback {i+1} - {n_picos} Frecuencias dominantes por DOF:")
 
@@ -172,10 +172,10 @@ def analizar_fourier_pullbacks(dfs, fs=200, n_picos=3):
             for f in frecs_dominantes:
                 axs[j].axvline(f, color='r', linestyle='--')
             axs[j].set_title(f"DOF {j+1}")
-            axs[j].set_ylabel("Magnitud")
+            axs[j].set_ylabel("Magnitude")
             axs[j].grid(True)
 
-        axs[-1].set_xlabel("Frecuencia [Hz]")
+        axs[-1].set_xlabel("Frequency [Hz]")
         plt.tight_layout(rect=[0, 0, 1, 0.95])
         plt.savefig(f"INFORME/GRAFICOS/Fourier_Pullback_{i+1}.png", dpi=300)
         plt.close(fig)
